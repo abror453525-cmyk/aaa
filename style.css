@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #00474b;
+    color: #ffffff;
+}
+
+
+.f1-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #00474b;
+}
+.f1-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.f1-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.f1-btn {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.f1-menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.f2-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+}
+.f2-title {
+    font-size: 48px;
+    width: 30%;
+}
+.f2-text {
+    font-size: 16px;
+    width: 60%;
+    line-height: 1.6;
+    color: #e3f2fd;
+}
+
+
+.f3-directors {
+    background-color: #002d30;
+    padding: 80px 10%;
+    text-align: center;
+}
+.f3-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.f3-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.f3-card {
+    background-color: #012022;
+    padding: 30px;
+    flex: 1;
+    position: relative;
+    border-radius: 8px;
+}
+.f3-img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.f3-card h3 {
+    color: #01f1f5;
+    margin-bottom: 5px;
+}
+.f3-plus {
+    background-color: #f67e7e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.f4-clients {
+    background-color: #012022;
+    padding: 60px 10%;
+    text-align: center;
+}
+.f4-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.f4-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    /* opacity: 0.6; */
+    
+}
+
+
+.f5-banner {
+    background-color: #f67e7e;
+    color: #012022;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+}
+.f5-btn {
+    border: 2px solid #012022;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: #012022;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.f6-footer {
+    background-color: #002d30;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f6-left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.f6-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.f6-nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.f6-socials span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 900px) {
+    .f2-header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .f2-title {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .f2-text {
+        width: 80%;
+    }
+
+    .f3-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    .f3-card {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .f1-links {
+        display: none; 
+    }
+    .f1-menu-toggle {
+        display: block;
+    }
+
+    .f2-text {
+        width: 100%;
+    }
+
+    .f3-card {
+        width: 100%;
+    }
+
+    .f4-logos {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .f5-banner {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .f6-footer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .f6-left {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .f6-nav-links a {
+        margin: 0 10px;
+    }
+}
+.df{
+    width: 180px;
+    height: 22.78809356689453px;
+}
